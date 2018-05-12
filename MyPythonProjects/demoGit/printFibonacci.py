@@ -11,7 +11,7 @@ b=1
 c=1
 g=0
 counter=0
-print ('Fibonaaci Series'  , file=open('C:\\Git_Testing\\Fibonaaci\\fibonacci.txt', 'w') )
+print ('Fibonaaci Series and Golden Ratio'  , file=open('C:\\Git_Testing\\Fibonaaci\\fibonacci.txt', 'w') )
 
 def nextfibonaccinumber(x,y):
     return x + y
