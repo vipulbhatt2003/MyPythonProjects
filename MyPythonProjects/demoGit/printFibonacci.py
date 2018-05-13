@@ -11,7 +11,7 @@ b=1
 c=1
 g=0
 counter=0
-print ('Fibonaaci Series and Golden Ratio'  , file=open('C:\\Git_Testing\\Fibonaaci\\fibonacci.txt', 'w') )
+print ('Fibonaaci Series and Golden Ratio - Updating the header'  , file=open('C:\\Git_Testing\\Fibonaaci\\fibonacci_v2.txt', 'w') )
 
 def nextfibonaccinumber(x,y):
     return x + y
@@ -22,7 +22,7 @@ def goldenratio(x,y):
 while counter <= 20:
     now = datetime.datetime.now()
     #print(c,'and', g)
-    print ('@Time' , str(now) , ' --> ',  c,' and Golden Ratio is', g , file=open('C:\\Git_Testing\\Fibonaaci\\fibonacci.txt', 'a') )
+    print ('@Time' , str(now) , ' --> ',  c,' and Golden Ratio is', g , file=open('C:\\Git_Testing\\Fibonaaci\\fibonacci_v2.txt', 'a') )
     c=nextfibonaccinumber(a,b)
     if a > 1:
         g=goldenratio(a,b)
